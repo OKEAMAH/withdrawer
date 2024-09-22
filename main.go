@@ -33,8 +33,8 @@ type network struct {
 var networks = map[string]network{
 	"base-mainnet": {
 		l2RPC:              "https://mainnet.base.org",
-		portalAddress:      "0x49048044D57e1C92A77f79988d21Fa8fAF74E97e",
-		l2OOAddress:        "0x56315b90c40730925ec5485cf004d835058518A0",
+		portalAddress:      "0xffb6505912fce95b42be4860477201bb4e204e9f",
+		l2OOAddress:        "0x28abd74378571a5bcf9f8d65e2989e27255264e5",
 		disputeGameFactory: "0x0000000000000000000000000000000000000000",
 		faultProofs:        false,
 	},
@@ -54,9 +54,9 @@ var networks = map[string]network{
 	},
 	"op-sepolia": {
 		l2RPC:              "https://sepolia.optimism.io",
-		portalAddress:      "0x16Fc5058F25648194471939df75CF27A2fdC48BC",
+		portalAddress:      "0x28abd74378571a5bcf9f8d65e2989e27255264e5",
 		l2OOAddress:        "0x0000000000000000000000000000000000000000",
-		disputeGameFactory: "0x05F9613aDB30026FFd634f38e5C4dFd30a197Fa1",
+		disputeGameFactory: "0x28abd74378571a5bcf9f8d65e2989e27255264e5",
 		faultProofs:        true,
 	},
 }
